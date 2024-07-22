@@ -1,0 +1,14 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: rgb(247, 243, 243);
+  /* background-color: rgb(119, 116, 116); */
+}
+
+/* for mobile devices */
+
+@media (max-width:767px) {
+  
+}
