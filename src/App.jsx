@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <Header />
-      <section className="first-container relative">
+      <section className="laptop relative">
         <Section />
       </section>
 
@@ -29,13 +29,11 @@ function App() {
         <Card imageurl={img4} heading={'Get creative with Microsoft Designer'} info={' Create images with words, craft next-level designs and edit photos in seconds with the power of AI.'} btntext={'Try Designer For Free'} />
       </section>
 
-      <section className="games-container relative my-4">
-        <div className="games">
-          <div className="right">
-            <img src={img5} alt="copilotpc" className='w-[90vw] lg:h-[90vh] xl:h-[55vh] md:h-[50vh] mx-auto' />
-          </div>
+      <section className="games relative my-4">
+        <div className="right">
+          <img src={img5} alt="copilotpc" className='w-[90vw] lg:h-[90vh] xl:h-[55vh] md:h-[50vh] mx-auto' />
         </div>
-        <div className="lg:text-white xl:text-white md:text-black lg:absolute xl:absolute left-16 top-16 md:static xl:w-[34vw] lg:w-[35vw] md:w-auto lg:mx-14 xl:mx-14 md:mx-0 px-8 py-8">
+        <div className="left lg:text-white xl:text-white md:text-black lg:absolute xl:absolute left-16 top-16 md:static xl:w-[34vw] lg:w-[35vw] md:w-auto lg:mx-14 xl:mx-14 md:mx-0 px-8 py-8">
           <h1 className='heading my-4 text-3xl font-semibold'>Upto 60% off digital games</h1>
           <p className='about my-4'>The wait is over – score incredible deals on select Xbox and PC titles. Sale ends 31 July.</p>
           <button className='my-4 md:bg-black md:text-white lg:text-black lg:bg-white xl:text-black xl:bg-white  font-semibold py-2 px-3'>Shop x box games</button>
@@ -43,12 +41,12 @@ function App() {
       </section>
 
       <section className="cards my-20">
-        <div className='heading'><h2 className='text-2xl text-black font-semibold mb-[16px] lg:ml-14 xl:ml-14 md:ml-5 ml-5'>For Business</h2></div>
+        <h2 className='text-2xl text-black font-semibold mb-[16px] lg:ml-14 xl:ml-14 md:ml-5 ml-5'>For Business</h2>
         <div className="lg:my-5 lg:mx-12 xl:my-5 xl:mx-12 md:my-5 grid place-items-center xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2">
           <Card imageurl={img12} heading={'Surface for Business '} info={' No matter what you do, there’s a Surface to help you do it.'} btntext={'shop now'} />
           <Card imageurl={img13} heading={' Copilot for Microsoft 365'} info={' Save time and focus on the things that matter most with AI in Microsoft 365 for business. '} btntext={'learn more'} />
           <Card imageurl={img14} heading={'Join the era of AI'} info={' Create, communicate, and code with the latest Microsoft AI solutions. '} btntext={'explore ai solutions'} />
-          <Card imageurl={img15} heading={'Visual Studio 2022'} info={'Get the most comprehensive IDE for .NET and C++ developers on Windows for building web, cloud, desktop, mobile apps, services and games.'} btntext={'download visual studio 2022'} />
+          <Card imageurl={img15} heading={'Visual Studio 2022'} info={'Get the most comprehensive IDE for .NET and C++ developers on Windows for building web, cloud, desktop, mobile apps, services and games.'} btntext={'Download Visual Studio'} />
         </div>
       </section>
 

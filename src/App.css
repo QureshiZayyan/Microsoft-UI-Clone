@@ -3,9 +3,7 @@
 }
 
 body {
-  background-color: rgb(255, 253, 253);
+  background-color: rgb(244, 239, 239);
 }
 
 /* for mobile devices */
-
-@media (max-width:767px) {}
