@@ -3,7 +3,7 @@ import Button from './Button'
 
 const Card = ({ imageurl, heading, info, link, btntext }) => {
   return (
-    <div className='card w-[90vw] lg:w-[21vw] xl:w-[21vw] md:w-[46vw] shadow-md md:my-5 my-4'>
+    <div className='card w-[90vw] lg:w-[21vw] xl:w-[21vw] md:w-[46vw] shadow-md md:my-5 my-4 relative'>
       <div className='card-img'>
         <img src={imageurl} alt="" className='w-full' />
       </div>

@@ -3,12 +3,9 @@
 }
 
 body {
-  background-color: rgb(247, 243, 243);
-  /* background-color: rgb(119, 116, 116); */
+  background-color: rgb(255, 253, 253);
 }
 
 /* for mobile devices */
 
-@media (max-width:767px) {
-  
-}
+@media (max-width:767px) {}

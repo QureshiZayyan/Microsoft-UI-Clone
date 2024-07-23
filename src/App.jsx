@@ -32,12 +32,12 @@ function App() {
       <section className="games-container relative my-4">
         <div className="games">
           <div className="right">
-            <img src={img5} alt="copilotpc" className='w-[90vw] lg:h-[90vh] xl:h-[90vh] md:h-[40vh] mx-auto' />
+            <img src={img5} alt="copilotpc" className='w-[90vw] lg:h-[90vh] xl:h-[55vh] md:h-[50vh] mx-auto' />
           </div>
         </div>
-        <div className="lg:text-white xl:text-white md:text-black lg:absolute xl:absolute left-16 top-16 md:static xl:w-[35vw] lg:w-[35vw] md:w-auto lg:mx-14 xl:mx-14 md:mx-0 px-8 py-8">
-          <h1 className='heading my-4 text-3xl font-semibold'>upto 60% off digital games</h1>
-          <p className='about my-4'>the wait is over score incredible skills on select xbox and pc titles sales ends 31 july.</p>
+        <div className="lg:text-white xl:text-white md:text-black lg:absolute xl:absolute left-16 top-16 md:static xl:w-[34vw] lg:w-[35vw] md:w-auto lg:mx-14 xl:mx-14 md:mx-0 px-8 py-8">
+          <h1 className='heading my-4 text-3xl font-semibold'>Upto 60% off digital games</h1>
+          <p className='about my-4'>The wait is over – score incredible deals on select Xbox and PC titles. Sale ends 31 July.</p>
           <button className='my-4 md:bg-black md:text-white lg:text-black lg:bg-white xl:text-black xl:bg-white  font-semibold py-2 px-3'>Shop x box games</button>
         </div >
       </section>
@@ -52,8 +52,8 @@ function App() {
         </div>
       </section>
 
-      <footer className='bg-slate-300 py-4'>
-        <div className='grid lg:grid-cols-6 xl:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 mx-14 xl:gap-0 lg:gap-0 gap-3'>
+      <footer className='bg-slate-200 py-4'>
+        <div className='grid lg:grid-cols-6 xl:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 xl:gap-0 lg:gap-0 place-items-center py-1 mx-3'>
           <Footer title={`what's New`} content={'Surface Laptop'} content1={'Surface Pro'} content2={'Microsoft Copilot'} content3={'Microsoft 365'} content4={'Windows 11 Apps'} />
           <Footer title={`Microsoft Store`} content={'Surface Laptop'} content1={'Surface Pro'} content2={'Microsoft Copilot'} content3={'Microsoft 365'} content4={'Windows 11 Apps'} />
           <Footer title={`Education`} content={'Surface Laptop'} content1={'Surface Pro'} content2={'Microsoft Copilot'} content3={'Microsoft 365'} content4={'Windows 11 Apps'} />
