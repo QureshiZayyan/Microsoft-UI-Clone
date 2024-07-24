@@ -1,18 +1,19 @@
 import mslogo from '../assets/msheading.png';
 import hamburger from '../assets/hamburger.png';
-import search from '../assets/search-interface-symbol.png'
-import cart from '../assets/shopping-cart.png'
-import login from '../assets/user.png'
+import search from '../assets/search-interface-symbol.png';
+import cart from '../assets/shopping-cart.png';
+import login from '../assets/user.png';
 
 const Header = () => {
-  return (
 
+  return (
     <header>
       <nav className="text-black xl:px-16 xl:py-4 lg:py-3 lg:px-16 px-4 py-3 flex items-center justify-between bg-white">
 
         <div className='flex items-center xl:hidden lg:hidden'>
+          <input type="text" name="" id="" className='w-[90vw]' />
           <img src={hamburger} alt="" className='w-6 cursor-pointer' />
-          <img src={search} alt="" className='w-5 cursor-pointer ml-5' />
+          <img src={search} alt="" className='w-5 cursor-pointer ml-5' onClick={input} />
         </div>
 
         <div className="logo xl:hidden lg:hidden">
@@ -41,7 +42,7 @@ const Header = () => {
           <li className="cart mx-2"><a href=""><img src={cart} alt="" className='w-7 cursor-pointer' /></a></li>
         </ul>
       </nav>
-    </header>
+    </header >
   )
 }
 
