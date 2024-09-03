@@ -13,7 +13,7 @@ const Header = () => {
         <div className='flex items-center xl:hidden lg:hidden'>
           <input type="text" name="" id="" className='w-[90vw]' />
           <img src={hamburger} alt="" className='w-6 cursor-pointer' />
-          <img src={search} alt="" className='w-5 cursor-pointer ml-5' onClick={input} />
+          <img src={search} alt="" className='w-5 cursor-pointer ml-5'/>
         </div>
 
         <div className="logo xl:hidden lg:hidden">

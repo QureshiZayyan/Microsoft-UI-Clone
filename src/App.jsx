@@ -31,9 +31,9 @@ function App() {
 
       <section className="games relative my-4">
         <div className="right">
-          <img src={img5} alt="copilotpc" className='w-[90vw] lg:h-[90vh] xl:h-[55vh] md:h-[50vh] mx-auto' />
+          <img src={img5} alt="copilotpc" className='w-[90vw] lg:h-[500px] xl:h-[570px] md:h-[50vh] mx-auto' />
         </div>
-        <div className="left lg:text-white xl:text-white md:text-black lg:absolute xl:absolute left-16 top-16 md:static xl:w-[34vw] lg:w-[35vw] md:w-auto lg:mx-14 xl:mx-14 md:mx-0 px-8 py-8">
+        <div className="left lg:text-white xl:text-white md:text-black lg:absolute xl:absolute left-16 top-[98px] md:static xl:w-[34vw] lg:w-[448px] md:w-auto lg:mx-14 xl:mx-14 md:mx-0 px-8 py-8">
           <h1 className='heading my-4 text-3xl font-semibold'>Upto 60% off digital games</h1>
           <p className='about my-4'>The wait is over – score incredible deals on select Xbox and PC titles. Sale ends 31 July.</p>
           <button className='my-4 md:bg-black md:text-white lg:text-black lg:bg-white xl:text-black xl:bg-white  font-semibold py-2 px-3'>Shop x box games</button>
