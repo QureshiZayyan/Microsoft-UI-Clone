@@ -14,8 +14,6 @@ import img14 from './assets/img14.avif';
 import img15 from './assets/img15.webp';
 
 function App() {
-alert('hello')
-
   return (
     <>
       <Header />
