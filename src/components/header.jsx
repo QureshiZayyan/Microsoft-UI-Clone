@@ -14,7 +14,7 @@ const Header = () => {
           <input type="text" name="" id="" className='w-[90vw]' />
           <img src={hamburger} alt="" className='w-6 cursor-pointer' />
           <img src={search} alt="" className='w-5 cursor-pointer ml-5' />
-        </div>
+        </div >
 
         <div className="logo xl:hidden lg:hidden">
           <img src={mslogo} alt="" className='w-28 mr-7' />
@@ -41,7 +41,7 @@ const Header = () => {
           <li className="search mx-2"> <img src={search} alt="" className='w-4 cursor-pointer ml-5' /></li>
           <li className="cart mx-2"><a href=""><img src={cart} alt="" className='w-7 cursor-pointer' /></a></li>
         </ul>
-      </nav>
+      </nav >
     </header >
   )
 }
