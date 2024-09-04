@@ -16,6 +16,7 @@ const Header = () => {
             <img src={search} alt="" className='w-5 cursor-pointer ml-5' />
           </div>
 
+
           <div className="logo xl:hidden lg:hidden">
             <img src={mslogo} alt="" className='w-28 mr-7' />
           </div>
@@ -41,9 +42,10 @@ const Header = () => {
             <li className="search mx-2"> <img src={search} alt="" className='w-4 cursor-pointer ml-5' /></li>
             <li className="cart mx-2"><a href=""><img src={cart} alt="" className='w-7 cursor-pointer' /></a></li>
           </ul>
-        </nav>
+        </nav >
       </header >
     </>
+
   )
 }
 
