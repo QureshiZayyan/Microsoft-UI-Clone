@@ -16,9 +16,8 @@ const Header = () => {
             <img src={search} alt="" className='w-5 cursor-pointer ml-5' />
           </div>
 
-
           <div className="logo xl:hidden lg:hidden">
-            <img src={mslogo} alt="" className='w-28 mr-7' />
+            <img src={mslogo} alt="" className='w-28' />
           </div>
 
           <div className='flex items-center xl:hidden lg:hidden'>
@@ -26,8 +25,8 @@ const Header = () => {
             <a href="#links"><img src={login} alt="" className='w-6' /></a>
           </div>
 
-          <ul className="lg:flex xl:flex hidden items-center text-sm">
-            <li className='pb-1'><img src={mslogo} alt="" className='w-28 mr-7' /></li>
+          <ul className="lg:flex xl:flex hidden items-center text-[12px]">
+            <li className='pb-1 mr-7'><img src={mslogo} alt="" className='w-[100px]' /></li>
             <li className="mx-2"><a href="#">Microsft 365</a></li>
             <li className="mx-2"><a href="#">Teams</a></li>
             <li className="mx-2"><a href="#">Copilot</a></li>
@@ -38,9 +37,9 @@ const Header = () => {
           </ul>
 
           <ul className="lg:flex xl:flex items-center text-sm hidden">
-            <li className="all mx-2"><a href="#">All Microsft</a></li>
-            <li className="search mx-2"> <img src={search} alt="" className='w-4 cursor-pointer ml-5' /></li>
-            <li className="cart mx-2"><a href=""><img src={cart} alt="" className='w-7 cursor-pointer' /></a></li>
+            <li className="all mx-2 text-[12px]"><a href="#">All Microsft</a></li>
+            <li className="search mx-2"> <img src={search} alt="" className='w-3 cursor-pointer ml-5' /></li>
+            <li className="cart mx-2"><a href=""><img src={cart} alt="" className='w-5 cursor-pointer' /></a></li>
           </ul>
         </nav >
       </header >
