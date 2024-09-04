@@ -1,8 +1,8 @@
 import mslogo from '../assets/msheading.png';
 import hamburger from '../assets/hamburger.png';
 import search from '../assets/search-interface-symbol.png';
-import cart from '../assets/shopping-cart.png';
 import login from '../assets/user.png';
+import cart from '../assets/shopping-cart.png';
 
 const Header = () => {
 
